@@ -274,7 +274,19 @@ body{
     border-radius: 1.25rem;
 }
 
-.grupo-secciones{
+.grupo-secciones-1{
+    background-color: #1F2123;
+    padding: .625rem 0rem .625rem 0rem;
+    border-radius: 1.25rem;
+}
+
+.grupo-secciones-2{
+    background-color: #1F2123;
+    padding: .625rem 0rem .625rem 0rem;
+    border-radius: 1.25rem;
+}
+
+.grupo-secciones-3{
     background-color: #1F2123;
     padding: .625rem 0rem .625rem 0rem;
     border-radius: 1.25rem;
@@ -293,10 +305,50 @@ body{
     font-size: 1.25rem;
 }
 
-.imagen-secundaria-p-g-g{
+.imagen-secundaria-flex{
     display: flex;
     gap: .625rem;
     justify-content: center;
+}
+
+@media (max-width:1300px){
+    .conjunto-txt-5{
+        display: none;
+    }
+    
+    .btn-agregar{
+        text-align: center;
+    }
+
+    .titulo-p-g-g a{
+        font-size: .9375rem;
+    }
+
+    .imagen-principal-p-g-g img{
+        width: 14.375rem;
+        height: 9.375rem;
+    }
+
+    .imagen-secundaria-p-g-g img{
+        width: 4.0625rem;
+        height: 4.0625rem;
+    }
+
+    .Boton-buscar input{
+        width: 21.875rem;
+    }
+
+    .imagen-secundaria-p-g-g-1 img{
+        width: 3.9375rem;
+    }
+    
+    .imagen-secundaria-p-g-g-2 img{
+        width: 3.9375rem;
+    }
+    
+    .imagen-secundaria-p-g-g-3 img{
+        width: 3.75rem;
+    }
 }
 
 @media (max-width:1024px){
@@ -376,6 +428,39 @@ body{
     }
 }
 
+@media (max-width:950px){
+    .Boton-buscar input{
+        display: none;
+    }
+    .navbar a{
+        display: flex;
+        justify-content: center;
+    }
+
+        /* Seccion g-g-p*/
+    .titulo-p-g-g a{
+        font-size: .75rem;
+    }
+    
+    .imagen-principal-p-g-g img{
+        width: 12.4375rem;
+        height: 8.125rem;
+    }
+    
+    .imagen-secundaria-p-g-g-1 img{
+        width: 3.4375rem;
+    }
+
+    .imagen-secundaria-p-g-g-2 img{
+        width: 3.4375rem;
+    }
+
+    .imagen-secundaria-p-g-g-3 img{
+        width: 3.4375rem;
+    }
+        /* Seccion g-g-p*/
+}
+
 @media (max-width:768px){
     .eliminar{
         display: none;
@@ -415,9 +500,8 @@ body{
         height: 8.5rem;
     }
 
-    .conjunto-txt{
-        max-width: 9.0625rem;
-        max-height: 15.875rem;
+    .conjunto-txt-4{
+        display: none;
     }
 
     .txt-principal p{
@@ -441,31 +525,46 @@ body{
         text-align: center;
     }
     /* Seccion destacados*/
-    
-    /* Seccion g-g-p*/
+
+    .contenedor-seccion-p-g-g{
+        padding: .9375rem;
+        gap: .625rem;
+    }
+
     .titulo-p-g-g a{
-        font-size: .75rem;
+        font-size: .8125rem;
     }
 
     .imagen-principal-p-g-g img{
-        width: 12.4375rem;
-        height: 8.125rem;
+        width: 9.375rem;
+        height: 5.625rem;
     }
 
-    .imagen-secundaria-p-g-g img{
-        width: 3.625rem;
-        height: 3.3125rem;
+    .imagen-secundaria-flex{
+        display: flex;
+        justify-content: center;
     }
-    /* Seccion g-g-p*/
+
+    .imagen-secundaria-p-g-g-1 img{
+        width: 3.75rem;
+    }
+
+    .imagen-secundaria-p-g-g-2 img{
+        width: 3.75rem;
+    }
+
+    .imagen-secundaria-p-g-g-3 img{
+        display: none;
+    }
 }
 
-@media (max-width:425px){
-    .logo a{
-        font-size: 1.6875rem;
+@media (max-width:560px){
+    .icon-footer-conjunto{
+        display: none;
     }
 
-    .Icon-txt-header img{
-        width: 1.5625rem;
+    .conjunto-txt-3{
+        display: none;
     }
 
     .contenedor-seccion-p-g-g{
@@ -474,6 +573,32 @@ body{
         justify-content: center;
     }
 
+    .titulo-p-g-g a{
+        font-size: .75rem;
+    }
+    
+    .imagen-principal-p-g-g img{
+        width: 12.4375rem;
+        height: 8.125rem;
+    }
+    
+    .imagen-secundaria-p-g-g img{
+        width: 3.625rem;
+        height: 3.3125rem;
+    }
+}
+
+@media (max-width:500px){
+    .logo a{
+        font-size: 1.6875rem;
+    }
+
+    .Icon-txt-header img{
+        width: 1.5625rem;
+    }
+}
+
+@media (max-width:425px){
     .carrusel img{
         width: 26.5625rem;
         height: 10.625rem;
@@ -514,7 +639,11 @@ body{
     }
 }
 
-@media (max-width:375){
+@media (max-width:375px){
+    .carrusel img{
+        width: 100%;
+    }
+
     .icon-footer-conjunto{
         margin: 0 .125rem;
     }
