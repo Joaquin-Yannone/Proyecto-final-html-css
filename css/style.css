@@ -138,8 +138,15 @@ body{
 /* Termina el footer */
 
 /* Empieza seccion carrusel */
+.carrusel{
+    justify-content: center;
+    display: flex;
+}
+
 .carrusel img{
-    width: 100%;
+    margin-top: 1.875rem;
+    border-radius: 1.875rem;
+    width: 81.25rem;
 }
 /* termina seccion carrusel */
 
@@ -312,6 +319,10 @@ body{
 }
 
 @media (max-width:1300px){
+    .carrusel img{
+        width: 62.5rem;
+    }
+
     .conjunto-txt-5{
         display: none;
     }
@@ -352,6 +363,10 @@ body{
 }
 
 @media (max-width:1024px){
+    .carrusel img{
+        width: 47.5rem;
+    }
+
     .Boton-buscar input{
         width: 18.75rem;
     }
@@ -429,9 +444,18 @@ body{
 }
 
 @media (max-width:950px){
+    .carrusel img{
+        width: 47.5rem;
+    }
+    
     .Boton-buscar input{
         display: none;
     }
+
+    .lupa {
+        display: none;
+    }
+
     .navbar a{
         display: flex;
         justify-content: center;
@@ -462,7 +486,7 @@ body{
 }
 
 @media (max-width:768px){
-    .eliminar{
+    .contenedor-navbar{
         display: none;
     }
 
@@ -481,8 +505,10 @@ body{
 /* Primera pagina responsive */
     /* Seccion carrusel*/
     .carrusel img{
-        width: 48rem;
-        height: 18.8125rem;
+        margin-top: .3125rem;
+        width: 35rem;
+        height: 12.5rem;
+        border-radius: 1.25rem;
     }
     /* Seccion carrusel*/
 
@@ -559,6 +585,11 @@ body{
 }
 
 @media (max-width:560px){
+    .carrusel img{
+        width: 28.125rem;
+        height: 9.375rem;
+    }
+
     .icon-footer-conjunto{
         display: none;
     }
@@ -589,6 +620,11 @@ body{
 }
 
 @media (max-width:500px){
+    .carrusel img{
+        width: 25rem;
+        height: 9.375rem;
+    }
+
     .logo a{
         font-size: 1.6875rem;
     }
@@ -600,8 +636,8 @@ body{
 
 @media (max-width:425px){
     .carrusel img{
-        width: 26.5625rem;
-        height: 10.625rem;
+        width: 21.875rem;
+        height: 9.375rem;
     }
 
     .conjunto-txt-1{
@@ -641,7 +677,8 @@ body{
 
 @media (max-width:375px){
     .carrusel img{
-        width: 100%;
+        width: 20rem;
+        height: 8.75rem;
     }
 
     .icon-footer-conjunto{
