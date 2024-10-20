@@ -1424,6 +1424,16 @@ body{
         height: 23.75rem;
     }
 
+    .contenedor-gabinetes{
+        width: 43.75rem;
+        height: 23.75rem;
+    }
+
+    .contenedor-graficas{
+        width: 43.75rem;
+        height: 23.75rem;
+    }
+
     .conjunto-productos-perifericos-1{
         width: 8.75rem;
     }
@@ -1510,6 +1520,18 @@ body{
         height: 23.75rem;
     }
 
+    .contenedor-gabinetes{
+        padding-left: 6.25rem;
+        width: 35rem;
+        height: 23.75rem;
+    }
+
+    .contenedor-graficas{
+        padding-left: 6.25rem;
+        width: 35rem;
+        height: 23.75rem;
+    }
+
     .contenedor-perifericos-11{
         display: flex;
         justify-content: center;
@@ -1572,6 +1594,18 @@ body{
         height: 21.875rem;
     }
 
+    .contenedor-gabinetes{
+        background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+        width: 25rem;
+        height: 21.875rem;
+    }
+
+    .contenedor-graficas{
+        background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+        width: 25rem;
+        height: 21.875rem;
+    }
+
     .contenedor-productos{
         display: flex;
         justify-content: center;
@@ -1617,6 +1651,7 @@ body{
     }
 
     .titulo-perifericos-2 h2{
+        text-align: center;
         font-size: 1.125rem;
     }
 
@@ -1628,7 +1663,16 @@ body{
 
 @media (max-width:440px){
     .contenedor-perifericos{
-        background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+        width: 23.75rem;
+        height: 20.625rem;
+    }
+
+    .contenedor-gabinetes{
+        width: 23.75rem;
+        height: 20.625rem;
+    }
+
+    .contenedor-graficas{
         width: 23.75rem;
         height: 20.625rem;
     }
@@ -1660,6 +1704,7 @@ body{
     }
 
     .titulo-perifericos-2 h2{
+        text-align: center;
         font-size: 1.125rem;
     }
 
