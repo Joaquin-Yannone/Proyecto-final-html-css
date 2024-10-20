@@ -1281,7 +1281,23 @@ body{
     background-color: #FCD05C;
 }
 
-.conjunto-productose-perifericos{
+.conjunto-productos-perifericos-1{
+    background-color: #181A1B;
+    width: 13.1981rem;
+    border-radius: .625rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.conjunto-productos-perifericos-2{
+    background-color: #181A1B;
+    width: 13.1981rem;
+    border-radius: .625rem;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.conjunto-productos-perifericos-3{
     background-color: #181A1B;
     width: 13.1981rem;
     border-radius: .625rem;
@@ -1315,7 +1331,47 @@ body{
     display: flex;
 }
 
-.contenedor-productos-perifericos{
+.contenedor-productos-perifericos-1{
+    margin: 0 .625rem;
+    background-color: #181A1B;
+    max-width: 18.7931rem;
+    max-height: 32.7456rem;
+    border-radius: .625rem;
+}
+
+.contenedor-productos-perifericos-2{
+    margin: 0 .625rem;
+    background-color: #181A1B;
+    max-width: 18.7931rem;
+    max-height: 32.7456rem;
+    border-radius: .625rem;
+}
+
+.contenedor-productos-perifericos-3{
+    margin: 0 .625rem;
+    background-color: #181A1B;
+    max-width: 18.7931rem;
+    max-height: 32.7456rem;
+    border-radius: .625rem;
+}
+
+.contenedor-productos-perifericos-4{
+    margin: 0 .625rem;
+    background-color: #181A1B;
+    max-width: 18.7931rem;
+    max-height: 32.7456rem;
+    border-radius: .625rem;
+}
+
+.contenedor-productos-perifericos-5{
+    margin: 0 .625rem;
+    background-color: #181A1B;
+    max-width: 18.7931rem;
+    max-height: 32.7456rem;
+    border-radius: .625rem;
+}
+
+.contenedor-productos-perifericos-6{
     margin: 0 .625rem;
     background-color: #181A1B;
     max-width: 18.7931rem;
@@ -1356,4 +1412,259 @@ body{
 .btn-productos-p-g-g :hover{
     background-color: #FCD05C;
     color: #181A1B;
+}
+
+@media (max-width:1350px){
+    .titulo-perifericos-1{
+        font-size: 1.4375rem;
+    }
+
+    .contenedor-perifericos{
+        width: 43.75rem;
+        height: 23.75rem;
+    }
+
+    .conjunto-productos-perifericos-1{
+        width: 8.75rem;
+    }
+
+    .conjunto-productos-perifericos-2{
+        width: 8.75rem;
+    }
+
+    .conjunto-productos-perifericos-3{
+        width: 8.75rem;
+    }
+
+    .imagen-periferico-mas-vendidos img{
+        width: 8.75rem;
+    }
+
+    .btn-agregar-mas-vendidos button{
+        padding: .3125rem 30px;
+    }
+
+    .txt-productos-perifericos p{
+        font-size: 1rem;
+    }
+
+    .txt-productos-perifericos h3{
+        font-size: 1.1875rem;
+    }
+
+    .contenedor-productos-perifericos-1{
+        max-width: 12.5rem;
+    }
+
+    .contenedor-productos-perifericos-2{
+        max-width: 12.5rem;
+    }
+
+    .contenedor-productos-perifericos-3{
+        max-width: 12.5rem;
+    }
+
+    .contenedor-productos-perifericos-4{
+        max-width: 12.5rem;
+    }
+
+    .contenedor-productos-perifericos-5{
+        max-width: 12.5rem;
+    }
+
+    .contenedor-productos-perifericos-6{
+        max-width: 12.5rem;
+    }
+
+    .titulo-perifericos-2 h2{
+        font-size: 1.875rem;
+    }
+
+    .imagen-principal-perifericos img{
+        width: 12.5rem;
+    }
+
+    .btn-productos-p-g-g button{
+        padding: .3125rem 3.5625rem;
+    }
+
+    .filtros-padre {
+        padding-right: 1.875rem;
+    }
+}
+
+@media (max-width:950px){
+    .filtros-padre{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .conjunto-productos-perifericos-3{
+        display: none;
+    }
+
+    .contenedor-perifericos{
+        padding-left: 6.25rem;
+        width: 35rem;
+        height: 23.75rem;
+    }
+
+    .contenedor-perifericos-11{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-productos-perifericos-1{
+        max-width: 9.375rem;
+    }
+
+    .contenedor-productos-perifericos-2{
+        max-width: 9.375rem;
+    }
+
+    .contenedor-productos-perifericos-3{
+        max-width: 9.375rem;
+    }
+
+    .contenedor-productos-perifericos-4{
+        max-width: 9.375rem;
+    }
+
+    .contenedor-productos-perifericos-5{
+        max-width: 9.375rem;
+    }
+
+    .contenedor-productos-perifericos-6{
+        max-width: 9.375rem;
+    }
+
+    .titulo-perifericos-1 h2{
+        font-size: 1.5rem;
+    }
+
+    .titulo-perifericos-2 h2{
+        font-size: 1.5rem;
+    }
+
+    .imagen-principal-perifericos img{
+        width: 9.375rem;
+    }
+
+    .txt-productos-perifericos p{
+        font-size: .8125rem;
+    }
+
+    .btn-productos-p-g-g button{
+        padding: .3125rem 1.875rem;
+    }
+
+    .contenedor-perifericos-venta{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:580px){
+    .contenedor-perifericos{
+        background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+        width: 25rem;
+        height: 21.875rem;
+    }
+
+    .contenedor-productos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-productos-perifericos-3{
+        display: none;
+    }
+
+    .contenedor-productos-perifericos-6{
+        display: none;
+    }
+
+    .conjunto-productos-perifericos-1{
+        width: 10.625rem;
+    }
+
+    .conjunto-productos-perifericos-2{
+        width: 10.625rem;
+    }
+
+    .imagen-periferico-mas-vendidos img{
+        width: 10.625rem;
+        height: 150px;
+    }
+
+    .btn-agregar-mas-vendidos button{
+        font-size: .9375rem;
+        padding: .3125rem 25px;
+    }
+
+    .txt-perifericos p{
+        font-size: .8125rem;
+    }
+
+    .txt-perifericos h3{
+        font-size: .9375rem;
+    }
+
+    .titulo-perifericos-2 h2{
+        font-size: 1.125rem;
+    }
+
+    .titulo-perifericos-1 h2{
+        margin-left: .25rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width:440px){
+    .contenedor-perifericos{
+        background-image: url(../assets/IMG/PERIFERICOS/FONDO\ PERIFERICO\ sin\ texto.png);
+        width: 23.75rem;
+        height: 20.625rem;
+    }
+
+    .conjunto-productos-perifericos-1{
+        width: 9.375rem;
+    }
+
+    .conjunto-productos-perifericos-2{
+        width: 9.375rem;
+    }
+
+    .imagen-periferico-mas-vendidos img{
+        width: 9.375rem;
+        height: 150px;
+    }
+
+    .btn-agregar-mas-vendidos button{
+        font-size: .9375rem;
+        padding: .3125rem 25px;
+    }
+
+    .txt-perifericos p{
+        font-size: .8125rem;
+    }
+
+    .txt-perifericos h3{
+        font-size: .9375rem;
+    }
+
+    .titulo-perifericos-2 h2{
+        font-size: 1.125rem;
+    }
+
+    .titulo-perifericos-1 h2{
+        margin-left: .25rem;
+        font-size: 1.125rem;
+    }
 }
